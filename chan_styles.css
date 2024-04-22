@@ -1270,6 +1270,176 @@ border-radius: 42px;
 background: url(image/button.png);
 }
 
+.blog{
+    /* Blog */
+position: static;
+width: 1440px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 112px 64px 112px 64px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 9;
+flex-grow: 0;
+margin: 0px 0px;
+
+background: rgb(255, 255, 255);
+}
+
+.blog-section-title{
+    /* Section Title */
+position: static;
+width: 768px;
+height: 233px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 80px 0px;   
+}
+
+.blog-section-subtitle{
+    /* Subheading */
+position: static;
+width: 126px;
+height: 18px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 16px 0px;
+
+color: rgb(29, 30, 28);
+font-family: Pretendard;
+font-size: 12px;
+font-weight: 100;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+}
+
+.blog-content{
+    /* Content */
+position: static;
+width: 768px;
+height: 199px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 16px 0px;
+}
+
+.blog-frame{
+    /* Frame 65 */
+position: static;
+width: 768px;
+height: 124px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+}
+
+.blog-text{
+    /* Text */
+position: static;
+width: 520px;
+height: 51px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 24px 0px;
+
+color: rgb(29, 30, 28);
+font-family: Pretendard;
+font-size: 14px;
+font-weight: 700;
+line-height: 180%;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.blog-frame2{
+
+/* Heading */
+position: static;
+width: 768px;
+height: 58px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 8px 0px;
+
+color: rgb(29, 30, 28);
+font-family: Pretendard;
+font-size: 48px;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+}
+
+
 @font-face {
     font-family: 'Pretendard-Regular';
     src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
