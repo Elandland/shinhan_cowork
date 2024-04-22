@@ -97,7 +97,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
     padding: 0px;
 
 
@@ -111,7 +110,7 @@ body {
     font-weight: 700;
     line-height: 120%;
     letter-spacing: 0%;
-    text-align: left;
+    text-align: center;
 
     font-family: "Pretendard-Regular";
 }
@@ -127,6 +126,7 @@ body {
     align-self: stretch;
     flex-grow: 0;
     margin: 32px 0px;
+    
 }
 
 .content-1 {
@@ -148,6 +148,7 @@ body {
     border-radius: 24px;
     text-align: center;
     background: rgb(211, 249, 133);
+    
 }
 
 .content-1 photo-image{
@@ -184,7 +185,7 @@ flex-grow: 0;
 margin: 24px 0px;
 
 color: rgb(29, 30, 28);
-font-family: Pretendard;
+font-family: "Pretendard-Regular";
 font-size: 14px;
 font-weight: 700;
 line-height: 180%;
@@ -212,7 +213,7 @@ flex-grow: 1;
 margin: 0px 0px;
 
 color: rgb(80, 80, 80);
-font-family: Pretendard;
+font-family: "Pretendard-Regular";
 font-size: 14px;
 font-weight: 400;
 line-height: 180%;
@@ -237,7 +238,7 @@ order: 1;
 flex-grow: 1;
 margin: 0px 0px;
 color: rgb(29, 30, 28);
-font-family: Pretendard;
+font-family: "Pretendard-Regular";
 font-size: 14px;
 font-weight: 700;
 line-height: 180%;
@@ -262,7 +263,7 @@ text-align: center;
     justify-content: flex-start;
     align-items: center;
     padding: 32px;
-
+    text-align: center;
     border-radius: 24px;
 
     background: rgb(241, 241, 241);
@@ -281,6 +282,89 @@ flex-grow: 0;
 background: url(image/human\ image2.png);
 }
 
+.content-2 quote {
+    /* Quote */
+    position: static;
+    width: 296px;
+    height: 126px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 32px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+
+    color: rgb(29, 30, 28);
+    font-family: "Pretendard-Regular";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 180%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.content-2 who {
+    /* Text */
+    position: static;
+    width: 296px;
+    height: 18px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    margin: 0px 0px;
+
+    color: rgb(80, 80, 80);
+    font-family: "Pretendard-Regular";
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.content-2 who2 {
+    /* Text */
+    position: static;
+    width: 296px;
+    height: 26px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    margin: 0px 0px;
+
+    color: rgb(29, 30, 28);
+    font-family: "Pretendard-Regular";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 180%;
+    letter-spacing: 0%;
+    text-align: center;
+}
 .content-3 {
 box-sizing: border-box;
 position: absolute;
@@ -314,7 +398,88 @@ flex-grow: 0;
 
 background: url(image/human\ image3.png);
 
+}
 
+.content-3 quote {
+    /* Quote */
+    position: static;
+    width: 296px;
+    height: 126px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 32px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+
+color: rgb(29, 30, 28);
+    font-family: "Pretendard-Regular";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 180%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.content-3 who {
+    /* Text */
+    position: static;
+    width: 296px;
+    height: 18px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+
+    color: rgb(80, 80, 80);
+    font-family: "Pretendard-Regular";
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.content-3 who2 {
+    /* Text */
+    position: static;
+    width: 296px;
+    height: 26px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+
+    color: rgb(29, 30, 28);
+    font-family: "Pretendard-Regular";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 180%;
+    letter-spacing: 0%;
+    text-align: center;
 }
 
 .content-4 {
@@ -352,6 +517,89 @@ flex-grow: 0;
 background:url(image/human\ image4.png);
 }
 
+.content-4 quote {
+    /* Quote */
+    position: static;
+    width: 296px;
+    height: 101px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 32px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+
+    color: rgb(29, 30, 28);
+    font-family: "Pretendard-Regular";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 180%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.content-4 who {
+    /* Text */
+    position: static;
+    width: 296px;
+    height: 18px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    margin: 0px 0px;
+
+    color: rgb(80, 80, 80);
+    font-family: "Pretendard-Regular";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.content-4 who2 {
+    /* Text */
+    position: static;
+    width: 296px;
+    height: 26px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    margin: 0px 0px;
+
+    color: rgb(29, 30, 28);
+    font-family: "Pretendard-Regular";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 180%;
+    letter-spacing: 0%;
+    text-align: center;
+}
 .content-5 {
 box-sizing: border-box;
 position: absolute;
@@ -386,6 +634,92 @@ flex-grow: 0;
 background: url(image/human\ image5.png);
 
 }
+.content-5 quote {
+    /* Quote */
+    position: static;
+    width: 296px;
+    height: 101px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 32px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+
+    color: rgb(29, 30, 28);
+    font-family: "Pretendard-Regular";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 180%;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.content-5 who {
+    /* Text */
+    position: static;
+    width: 296px;
+    height: 18px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    margin: 0px 0px;
+
+    color: rgb(80, 80, 80);
+    font-family: "Pretendard-Regular";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.content-5 who2 {
+    /* Text */
+    position: static;
+    width: 296px;
+    height: 26px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    margin: 0px 0px;
+
+    color: rgb(29, 30, 28);
+    font-family: "Pretendard-Regular";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 180%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
 @font-face {
     font-family: 'Pretendard-Regular';
     src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
