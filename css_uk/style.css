@@ -686,9 +686,9 @@ margin: 0px 24px;
     text-transform: uppercase;
 }
 
-.row {
+.row--nav {
     /* Row */
-   position: static;
+   position: relative;
    width: 1312px;
    height: 35px;
    /* 자동 레이아웃 */
@@ -696,8 +696,8 @@ margin: 0px 24px;
    flex-direction: row;
    justify-content: center;
    align-items: center;
-   padding: 0px;
-   
+   padding: 20px;
+   padding-left: 250px;
    
    /* Inside Auto Layout */
    flex: none;
@@ -716,4 +716,49 @@ margin: 0px 24px;
     right: 1%;
     top: 13.06%;
     bottom: 12.74%;
+   }
+
+.ip1 {
+    /* Logo */
+   position: static;
+   width: 144.94px;
+   height: 32px;
+   /* Inside Auto Layout */
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+   margin: 0px 48px;
+}
+.ip2 {
+   /* Logo */
+   position: static;
+   width: 137.6px;
+   height: 32px;
+   /* Inside Auto Layout */
+   flex: none;
+   order: 2;
+   flex-grow: 0;
+   margin: 0px 48px;
+}
+.ip3 {
+   /* Logo */
+   position: static;
+   width: 154px;
+   height: 28px;
+   /* Inside Auto Layout */
+   flex: none;
+   order: 3;
+   flex-grow: 0;
+   margin: 0px 48px;
+}
+.ip4 {
+   /* Logo */
+   position: static;
+   width: 132px;
+   height: 35px;
+   /* Inside Auto Layout */
+   flex: none;
+   order: 4;
+   flex-grow: 0;
+   margin: 0px 48px;
 }
