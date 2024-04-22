@@ -1,0 +1,719 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+  background: rgb(255, 255, 255);
+  position: relative;
+  width: 1440px;
+  height: 8062px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px
+}
+
+
+.header {
+    /* Navbar */
+    position: static;
+    width: 1440px;
+    height: 72px;
+   /* 자동 레이아웃 */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 0px 64px 0px 64px;
+ 
+   /* Inside Auto Layout */
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   margin: 0px 0px; 
+ }
+
+ /* Container */
+.header-container {
+    
+    position: static; 
+    width: 1312px;
+    height: 45px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+  
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 0px 0px;
+  }
+
+/* Logo */
+.header--logo--title {
+  position: static;
+  width: 118.95px;
+  height: 24px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+
+  /* background: rgb(29, 30, 28); */
+}
+
+.header--nav {
+    width: 1000px;
+    position: relative;
+    height: 45px;
+}
+/* Column */
+.header--menu {
+ /* Column */
+ position: absolute;
+ width: 559px;
+ height: 45px;
+ /* 자동 레이아웃 */
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ padding: 0px;
+
+ /* Inside Auto Layout */
+ flex: none;
+ order: 1;
+ flex-grow: 0;
+ margin: 0px 10px;
+ left: 0px;
+ 
+}
+
+.header--menu--item {
+    
+ /* Column */
+position: static;
+width: 299px;
+height: 25px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 48px;
+
+}
+
+.header--item {
+  /* Link */
+position: static;
+width: 40px;
+height: 25px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 48px;
+
+color: rgb(29, 30, 28);
+font-family: Pretendard;
+font-size: 14px;
+font-weight: 400;
+line-height: 180%;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+.header--menu--login {
+  /* Column */
+position: absolute;
+width: 212px;
+height: 45px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 48px;
+right: 0px;
+}
+
+.header--login {
+  /* button */
+position: static;
+width: 88px;
+height: 45px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 24px 12px 24px;
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 24px;
+}
+
+.image-button {
+  background-image: url('../img_uk/image.png'); 
+  /* background-size: cover; */
+  /* button */
+  position: static;
+  width: 88px; 
+  height: 45px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px 12px 24px;
+
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 24px;
+
+  border: 1px solid rgb(29, 30, 28);
+  border-radius: 42px;
+
+  background: rgb(255, 255, 255);
+}
+
+.image-button2 {
+  background-image: url('../img_uk/image_copy.png'); 
+  /* background-size: cover; */
+  /* button */
+  position: static;
+  width: 100px;
+  height: 45px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px 12px 24px;
+
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 24px;
+  border: 1px solid rgb(29, 30, 28);
+  border-radius: 42px;
+
+  background: rgb(29, 30, 28);
+}
+
+.image-button-text {
+  /* Claim Your Spot */
+  position: static;
+  width: 40px;
+  height: 21px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px 12px 24px;
+
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 8px;
+  color: rgb(29, 30, 28);
+  font-family: General Sans Variable;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.image-button2-text {
+
+  /* Claim Your Spot */
+  position: static;
+  width: 52px;
+  height: 21px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px 12px 24px;
+  
+
+  /* Inside Auto Layout */
+  flex: none;
+   order: 0;
+  flex-grow: 0;
+  margin: 0px 8px;
+  color: rgb(255, 255, 255);
+  font-family: General Sans Variable;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.header--body {
+     
+  position: static;
+  width: 1440px;
+  height: 864px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 112px 64px 112px 64px;
+
+
+}
+
+.left--section {
+
+  /* Content */
+  position: relative;
+  width: 640px;
+  height: 520px;
+  /* 자동 레이아웃 */
+  display: flex;
+  margin-top: 200px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 0px 8px;
+}
+
+.left--section--up {
+   /* Section Title */
+   position: static;
+   width: 640px;
+   height: 396px;
+   /* 자동 레이아웃 */
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   padding: 0px;
+   
+   
+   /* Inside Auto Layout */
+   flex: none;
+   order: 0;
+   align-self: stretch;
+   flex-grow: 0;
+   margin: 32px 0px;
+}
+
+.content--1{
+   /* Heading */
+   width: 640px;
+   height: 288px;
+   position: static;
+   /* 자동 레이아웃 */
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   padding: 0px;
+   
+   
+   /* Inside Auto Layout */
+   flex: none;
+   order: 0;
+   align-self: stretch;
+   flex-grow: 0;
+   margin: 32px 0px;
+   
+   color: rgb(29, 30, 28);
+   font-family: Pretendard;
+   font-size: 96px;
+   font-weight: 700;
+   line-height: 100%;
+   letter-spacing: 0%;
+   text-align: left;
+}
+.right--section {
+   /* Placeholder / Image */
+   background-image: url("../img_uk/right.png"); 
+   position: static;
+   width: 640px;
+   height: 640px;
+   /* Inside Auto Layout */
+   flex: none;
+   order: 1;
+   flex-grow: 1;
+   margin: 0px 32px;
+}
+
+.content--1 {
+   /* Heading */
+  position: static; 
+  width: 640px;
+  height: 288px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+  
+  
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 32px 0px;
+  
+  color: rgb(29, 30, 28);
+  font-family: Pretendard;
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.welcome {
+       /* Text */
+   position: static;
+   width: 480px;
+   height: 76px;
+   /* 자동 레이아웃 */
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   padding: 0px;
+   
+   
+   /* Inside Auto Layout */
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+   margin: 32px 0px;
+   
+   color: rgb(29, 30, 28);
+   font-family: Pretendard;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 180%;
+   letter-spacing: 0%;
+   text-align: left;
+   }
+
+.image-spot {
+   /* background-image: url('../img_uk/spot.png'); */
+    /* button */
+   position: absolute;
+   top: 550px;
+   margin-left: 100px;
+   width: 130px;
+   height: 50px;
+   /* 자동 레이아웃 */
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 12px 24px 12px 24px;
+   
+   
+   /* Inside Auto Layout */
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   margin: 0px 16px;
+
+   border: 1px solid rgb(29, 30, 28);
+   border-radius: 42px;
+
+   background: rgb(29, 30, 28);
+   }
+
+.clam {
+    /* Claim Your Spot */
+    position: static;
+    width: 95px;
+    height: 21px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px 12px 24px;
+   
+   
+   /* Inside Auto Layout */
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   margin: 0px 8px;
+
+   color: rgb(255, 255, 255);
+   font-family: Pretendard;
+   font-size: 14px;
+   font-weight: 100;
+   line-height: 150%;
+   letter-spacing: 0%;
+   text-align: left;
+   }
+
+.Social--proof {
+    /* Social Proof */
+    position: static;
+    width: 1440px;
+    height: 237px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 80px 64px 80px 64px;
+    
+    
+    /* Inside Auto Layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.leading {
+    /* Heading */
+    position: static;
+    width: 1312px;
+    height: 18px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* padding: 80px 64px 80px 64px; */
+    
+    
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+
+    color: rgb(29, 30, 28);
+    font-family: Pretendard;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.row {
+    /* Row */
+   position: static;
+   width: 1312px;
+   height: 35px;
+   /* 자동 레이아웃 */
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 0px;
+   
+   
+   /* Inside Auto Layout */
+   flex: none;
+   order: 0;
+   align-self: stretch;
+   flex-grow: 0;
+   margin: 24px 0px;
+}
+
+.ip {
+    /* Vector */
+    position: absolute;
+    width: 148.98px;
+    height: 14.09px;
+    left: 0.99%;
+    right: 1%;
+    top: 13.06%;
+    bottom: 12.74%;
+}
