@@ -1010,7 +1010,265 @@ text-align: left;
 
 }
 
+.cta{
+    /* CTA */
+position: static;
+width: 1440px;
+height: 613px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 112px 64px 112px 64px;
 
+
+/* Inside Auto Layout */
+flex: none;
+order: 8;
+flex-grow: 0;
+margin: 0px 0px;
+
+background: rgb(255, 255, 255);
+
+}
+
+.column{
+    /* Column */
+position: static;
+width: 1312px;
+height: 389px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+margin: 0px 80px;
+}
+
+.cta-content{
+    /* Content */
+position: static;
+width: 1312px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+}
+
+
+.cta-content-frame{
+    /* Frame 65 */
+position: static;
+width: 1312px;
+height: 204px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+}
+
+.cta-content-frame2{
+    /* Frame 66 */
+position: static;
+width: 1312px;
+height: 96px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 12px 0px;
+}
+
+.cta-content-frame2 first-text{
+    /* Heading */
+position: static;
+width: 247px;
+height: 96px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 24px;
+
+color: rgb(29, 30, 28);
+font-family: Pretendard;
+font-size: 96px;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.cta-content-frame2 cta-image{
+    /* Rectangle 1 */
+position: static;
+width: 240px;
+height: 96px;
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 0px 24px;
+
+border-radius: 48px;
+
+background: url(image/cta\ image.png);
+}
+
+.cta-content-frame2 last-text{
+    /* Heading */
+position: static;
+width: 683px;
+height: 96px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 0px 24px;
+
+color: rgb(29, 30, 28);
+font-family: Pretendard;
+font-size: 96px;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.cta-content-header{
+    /* Heading */
+position: static;
+width: 1312px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 12px 0px;
+
+color: rgb(29, 30, 28);
+font-family: Pretendard;
+font-size: 96px;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+}
+
+
+.cta-text{
+
+    /* Text */
+position: static;
+width: 639px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 24px 0px;
+
+color: rgb(29, 30, 28);
+font-family: Pretendard;
+font-size: 14px;
+font-weight: 400;
+line-height: 180%;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.button{
+    /* button */
+position: static;
+width: 143px;
+height: 45px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 24px 12px 24px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 16px;
+
+border: 1px solid rgb(29, 30, 28);
+border-radius: 42px;
+
+background: url(image/button.png);
+}
 
 @font-face {
     font-family: 'Pretendard-Regular';
