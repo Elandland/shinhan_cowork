@@ -135,15 +135,13 @@ table {
     box-sizing: border-box
 }
 
-*{
-    box-sizing: border-box;
-}
 
 body {
     /* Desktop */
     position: relative;
-    width: 1440px;
-    height: 8071px;
+    max-width: 1440px;
+    width: 100%;
+    height: auto;
 
     display: flex;
     flex-direction: column;
