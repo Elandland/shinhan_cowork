@@ -688,7 +688,7 @@ margin: 0px 24px;
 
 .row--nav {
     /* Row */
-   position: relative;
+   position: static;
    width: 1312px;
    height: 35px;
    /* 자동 레이아웃 */
@@ -697,7 +697,7 @@ margin: 0px 24px;
    justify-content: center;
    align-items: center;
    padding: 20px;
-   padding-left: 250px;
+   padding-left: 180px;
    
    /* Inside Auto Layout */
    flex: none;
@@ -709,13 +709,14 @@ margin: 0px 24px;
 
 .ip {
     /* Vector */
-    position: absolute;
-    width: 148.98px;
-    height: 14.09px;
-    left: 0.99%;
-    right: 1%;
-    top: 13.06%;
-    bottom: 12.74%;
+    position: static;
+    width: 144.98px;
+    height: 32.09px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 48px;
    }
 
 .ip1 {
@@ -761,4 +762,293 @@ margin: 0px 24px;
    order: 4;
    flex-grow: 0;
    margin: 0px 48px;
+}
+
+
+.feature {
+    /* Features */
+    position: static;
+    width: 1440px;
+    height: 567px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 112px 64px 112px 64px;
+    
+    
+    /* Inside Auto Layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+.middle {
+    /* Frame 63 */
+    position: static;
+    width: 712px;
+    height: 58px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    
+    
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 80px 0px;
+}
+.choose {
+   /* Heading */
+   position: static;
+   width: 299px;
+   height: 58px;
+   /* 자동 레이아웃 */
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding-left: 108px;
+   
+   
+   /* Inside Auto Layout */
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   margin: 0px 16px;
+
+   color: rgb(29, 30, 28);
+   font-family: Pretendard;
+   font-size: 48px;
+   font-weight: 700;
+   line-height: 120%;
+   letter-spacing: 0%;
+   text-align: center;
+}
+
+.mid--img {
+    /* Rectangle 1 */
+    position: static;
+    width: 180px;
+    height: 58px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 16px;
+
+    border-radius: 48px;
+
+    background: url('../img_uk/cowork.png'),rgb(241, 241, 241);
+}
+
+.middle--down {
+    /* Row */
+   position: static;
+   width: 1312px;
+   height: 205px;
+   /* 자동 레이아웃 */
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: flex-start;
+   padding: 0px;
+   
+   
+   /* Inside Auto Layout */
+   flex: none;
+   order: 1;
+   align-self: stretch;
+   flex-grow: 0;
+   margin: 80px 0px;
+}
+
+.middle1 {
+  /* Column */
+   position: static;
+   width: 405.33px;
+   height: 205px;
+   /* 자동 레이아웃 */
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   padding: 0px;
+   
+   
+   /* Inside Auto Layout */
+   flex: none;
+   order: 0;
+   flex-grow: 1;
+   margin: 0px 48px;
+}
+
+.middle2 {
+  
+    /* Column */
+   position: static;
+   width: 405.33px;
+   height: 205px;
+   /* 자동 레이아웃 */
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   padding: 0px;
+   
+   
+   /* Inside Auto Layout */
+   flex: none;
+   order: 1;
+   flex-grow: 1;
+   margin: 0px 48px;
+}
+
+.middle3 {
+   
+       /* Column */
+   position: static;
+   width: 405.33px;
+   height: 205px;
+   /* 자동 레이아웃 */
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   padding: 0px;
+   
+   
+   /* Inside Auto Layout */
+   flex: none;
+   order: 2;
+   flex-grow: 1;
+   margin: 0px 48px;
+}
+
+.space-title {
+    /* Section Title */
+    position: static;
+    width: 405.33px;
+    height: 133px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    
+    
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+}
+.flex-img {
+    /* Vector */
+   position: static;
+   width: 45px;
+   height: 36px;
+   left: 3.1%;
+   right: 3.79%;
+   top: 12.5%;
+   bottom: 12.5%;
+   background-image: url('../img_uk/space.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+
+.flex2-img {
+  /* Vector */
+ position: static;
+ width: 45px;
+ height: 36.01px;
+ left: 3.1%;
+ right: 3.79%;
+ top: 12.5%;
+ bottom: 12.5%;
+ background: url('../img_uk/Card.png');
+ background-repeat: no-repeat;
+ background-size: contain;
+}
+
+.flex3-img {
+  /* Vector */
+  position: static;
+ width: 45px;
+ height: 36.01px;
+ left: 3.1%;
+ right: 3.79%;
+ top: 12.5%;
+ bottom: 12.5%;
+ background: url('../img_uk/membership.png');
+ background-repeat: no-repeat;
+ background-size: contain;
+}
+
+.flexible {
+    /* Heading */
+    position: static;
+    width: 405.33px;
+    height: 33px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    
+    
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+    
+    color: rgb(29, 30, 28);
+    font-family: Pretendard;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.title {
+   /* Text */
+   position: static;
+   width: 405.33px;
+   height: 76px;
+   /* 자동 레이아웃 */
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   padding: 0px;
+   
+   
+   /* Inside Auto Layout */
+   flex: none;
+   order: 1;
+   align-self: stretch;
+   flex-grow: 0;
+   margin: 24px 0px;
+
+   color: rgb(29, 30, 28);
+   font-family: Pretendard;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 180%;
+   letter-spacing: 0%;
+   text-align: center;   
+
 }
