@@ -7,20 +7,20 @@ body {
     position: relative;
     width: 1440px;
     height: 8071px;
-    /* 자동 레이아웃 */
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 0px;
+
 }
 
 .testimonial {
     /* Testimonial */
-    position: static;
+
     width: 1440px;
     height: 1122px;
-    /* 자동 레이아웃 */
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -28,31 +28,30 @@ body {
     padding: 112px 64px 112px 64px;
 
 
-    /* Inside Auto Layout */
+
     flex: none;
     order: 6;
-    flex-grow: 0;
+
     margin: 0px 0px;
 
     background: rgb(255, 255, 255);
 }
 
 .section-title {
-    position: static;
+
     width: 1312px;
     height: 92px;
-    /* 자동 레이아웃 */
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 0px;
 
-    /* Inside Auto Layout */
+
     flex: none;
     order: 0;
     align-self: stretch;
-    flex-grow: 0;
+
     margin: 32px 0px;
 
 
@@ -60,28 +59,24 @@ body {
 
 .small-text-title {
     /* Subheading */
-    position: static;
+
     width: 107px;
     height: 18px;
-    /* 자동 레이아웃 */
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 0px;
 
-
-    /* Inside Auto Layout */
     flex: none;
     order: 0;
-    flex-grow: 0;
+
     margin: 16px 0px;
 
     color: rgb(29, 30, 28);
     font-size: 11px;
-    font-weight: 100;
     line-height: 150%;
-    letter-spacing: 0%;
+    letter-spacing : -3%;
     text-align: center;
     text-transform: uppercase;
 
@@ -90,26 +85,23 @@ body {
 
 .big-text-title {
     /* Heading */
-    position: static;
+
     width: 555px;
     height: 58px;
-    /* 자동 레이아웃 */
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 0px;
 
-
-    /* Inside Auto Layout */
     flex: none;
     order: 0;
-    flex-grow: 0;
+
     margin: 24px 0px;
     color: rgb(29, 30, 28);
     font-size: 48px;
     font-weight: 700;
     line-height: 120%;
-    letter-spacing: 0%;
+    letter-spacing : -3%;
     text-align: center;
 
     font-family: "Pretendard-Regular";
@@ -120,11 +112,11 @@ body {
     position: relative;
     width: 1312px;
     height: 774px;
-    /* Inside Auto Layout */
+
     flex: none;
     order: 1;
     align-self: stretch;
-    flex-grow: 0;
+
     margin: 32px 0px;
     
 }
@@ -138,7 +130,7 @@ body {
     right: 864px;
     top: 41px;
     bottom: 420px;
-    /* 자동 레이아웃 */
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -153,13 +145,10 @@ body {
 
 .content-1 photo-image{
     /* Avatar Image */
-position: static;
 width: 56px;
 height: 56px;
-/* Inside Auto Layout */
 flex: none;
 order: 0;
-flex-grow: 0;
 margin: 0px;
 
 background: url(image/human\ image1.png);
@@ -167,21 +156,17 @@ background: url(image/human\ image1.png);
 
 .content-1 quote{
     /* Quote */
-position: static;
 width: 296px;
 height: 101px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: center;
 padding: 32px;
 
-/* Inside Auto Layout */
 flex: none;
 order: 1;
 align-self: stretch;
-flex-grow: 0;
 margin: 24px 0px;
 
 color: rgb(29, 30, 28);
@@ -189,24 +174,19 @@ font-family: "Pretendard-Regular";
 font-size: 14px;
 font-weight: 700;
 line-height: 180%;
-letter-spacing: 0%;
-text-align: left;
+letter-spacing : -3%;
     
 }
 
 .content-1 who{
     /* Text */
-position: static;
 width: 296px;
 height: 18px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 1;
 flex-grow: 1;
@@ -215,24 +195,20 @@ margin: 0px 0px;
 color: rgb(80, 80, 80);
 font-family: "Pretendard-Regular";
 font-size: 14px;
-font-weight: 400;
 line-height: 180%;
-letter-spacing: 0%;
+letter-spacing : -3%;
 text-transform: uppercase;
 text-align: center;
 }
 .content-1 who2{
-    position: static;
+
 width: 296px;
 height: 18px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 1;
 flex-grow: 1;
@@ -242,7 +218,7 @@ font-family: "Pretendard-Regular";
 font-size: 14px;
 font-weight: 700;
 line-height: 180%;
-letter-spacing: 0%;
+letter-spacing : -3%;
 text-align: center;
     
 }
@@ -257,7 +233,7 @@ text-align: center;
     right: 444px;
     top: 15px;
     bottom: 421px;
-    /* 자동 레이아웃 */
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -271,23 +247,20 @@ text-align: center;
 
 .content-2 photo-image{
     /* Avatar Image */
-position: static;
 width: 56px;
 height: 56px;
-/* Inside Auto Layout */
 flex: none;
 order: 0;
-flex-grow: 0;
 
 background: url(image/human\ image2.png);
 }
 
 .content-2 quote {
     /* Quote */
-    position: static;
+
     width: 296px;
     height: 126px;
-    /* 자동 레이아웃 */
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -295,11 +268,11 @@ background: url(image/human\ image2.png);
     padding: 32px;
 
 
-    /* Inside Auto Layout */
+
     flex: none;
     order: 1;
     align-self: stretch;
-    flex-grow: 0;
+
     margin: 24px 0px;
 
     color: rgb(29, 30, 28);
@@ -307,23 +280,20 @@ background: url(image/human\ image2.png);
     font-size: 14px;
     font-weight: 700;
     line-height: 180%;
-    letter-spacing: 0%;
-    text-align: left;
+    letter-spacing : -3%;
+
 }
 
 .content-2 who {
     /* Text */
-    position: static;
+
     width: 296px;
     height: 18px;
-    /* 자동 레이아웃 */
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 0px;
 
-
-    /* Inside Auto Layout */
     flex: none;
     order: 1;
     flex-grow: 1;
@@ -332,26 +302,24 @@ background: url(image/human\ image2.png);
     color: rgb(80, 80, 80);
     font-family: "Pretendard-Regular";
     font-size: 12px;
-    font-weight: 100;
     line-height: 150%;
-    letter-spacing: 0%;
+    letter-spacing : -3%;
     text-align: center;
     text-transform: uppercase;
 }
 
 .content-2 who2 {
     /* Text */
-    position: static;
+
     width: 296px;
     height: 26px;
-    /* 자동 레이아웃 */
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 0px;
 
 
-    /* Inside Auto Layout */
+
     flex: none;
     order: 1;
     flex-grow: 1;
@@ -362,7 +330,7 @@ background: url(image/human\ image2.png);
     font-size: 14px;
     font-weight: 700;
     line-height: 180%;
-    letter-spacing: 0%;
+    letter-spacing : -3%;
     text-align: center;
 }
 .content-3 {
@@ -374,7 +342,6 @@ left: 911px;
 right: 41px;
 top: 73px;
 bottom: 363px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -388,13 +355,10 @@ background: rgb(166, 232, 246);
 
 .content-3 photo-image{
     /* Avatar Image */
-position: static;
 width: 56px;
 height: 56px;
-/* Inside Auto Layout */
 flex: none;
 order: 0;
-flex-grow: 0;
 
 background: url(image/human\ image3.png);
 
@@ -402,10 +366,10 @@ background: url(image/human\ image3.png);
 
 .content-3 quote {
     /* Quote */
-    position: static;
+
     width: 296px;
     height: 126px;
-    /* 자동 레이아웃 */
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -413,11 +377,11 @@ background: url(image/human\ image3.png);
     padding: 32px;
 
 
-    /* Inside Auto Layout */
+
     flex: none;
     order: 1;
     align-self: stretch;
-    flex-grow: 0;
+
     margin: 24px 0px;
 
 color: rgb(29, 30, 28);
@@ -425,23 +389,22 @@ color: rgb(29, 30, 28);
     font-size: 14px;
     font-weight: 700;
     line-height: 180%;
-    letter-spacing: 0%;
-    text-align: left;
+    letter-spacing : -3%;
+
 }
 
 .content-3 who {
     /* Text */
-    position: static;
+
     width: 296px;
     height: 18px;
-    /* 자동 레이아웃 */
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 0px;
 
 
-    /* Inside Auto Layout */
+
     flex: none;
     order: 1;
     flex-grow: 1;
@@ -449,9 +412,8 @@ color: rgb(29, 30, 28);
     color: rgb(80, 80, 80);
     font-family: "Pretendard-Regular";
     font-size: 12px;
-    font-weight: 100;
     line-height: 150%;
-    letter-spacing: 0%;
+    letter-spacing : -3%;
     text-align: center;
     text-transform: uppercase;
 
@@ -459,17 +421,16 @@ color: rgb(29, 30, 28);
 
 .content-3 who2 {
     /* Text */
-    position: static;
+
     width: 296px;
     height: 26px;
-    /* 자동 레이아웃 */
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 0px;
 
 
-    /* Inside Auto Layout */
+
     flex: none;
     order: 1;
 
@@ -478,7 +439,7 @@ color: rgb(29, 30, 28);
     font-size: 14px;
     font-weight: 700;
     line-height: 180%;
-    letter-spacing: 0%;
+    letter-spacing : -3%;
     text-align: center;
 }
 
@@ -491,7 +452,6 @@ left: 258px;
 right: 694px;
 top: 401px;
 bottom: 60px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -506,23 +466,20 @@ background: rgb(252, 190, 220);
 
 .content-4 photo-image{
     /* Avatar Image */
-position: static;
 width: 56px;
 height: 56px;
-/* Inside Auto Layout */
 flex: none;
 order: 0;
-flex-grow: 0;
 
 background:url(image/human\ image4.png);
 }
 
 .content-4 quote {
     /* Quote */
-    position: static;
+
     width: 296px;
     height: 101px;
-    /* 자동 레이아웃 */
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -530,11 +487,11 @@ background:url(image/human\ image4.png);
     padding: 32px;
 
 
-    /* Inside Auto Layout */
+
     flex: none;
     order: 1;
     align-self: stretch;
-    flex-grow: 0;
+
     margin: 24px 0px;
 
     color: rgb(29, 30, 28);
@@ -542,23 +499,22 @@ background:url(image/human\ image4.png);
     font-size: 14px;
     font-weight: 700;
     line-height: 180%;
-    letter-spacing: 0%;
-    text-align: left;
+    letter-spacing : -3%;
+
 }
 
 .content-4 who {
     /* Text */
-    position: static;
+
     width: 296px;
     height: 18px;
-    /* 자동 레이아웃 */
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 0px;
 
 
-    /* Inside Auto Layout */
+
     flex: none;
     order: 1;
     flex-grow: 1;
@@ -567,26 +523,25 @@ background:url(image/human\ image4.png);
     color: rgb(80, 80, 80);
     font-family: "Pretendard-Regular";
     font-size: 12px;
-    font-weight: 400;
+
     line-height: 150%;
-    letter-spacing: 0%;
+    letter-spacing : -3%;
     text-align: center;
     text-transform: uppercase;
 }
 
 .content-4 who2 {
     /* Text */
-    position: static;
+
     width: 296px;
     height: 26px;
-    /* 자동 레이아웃 */
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 0px;
 
 
-    /* Inside Auto Layout */
+
     flex: none;
     order: 1;
     flex-grow: 1;
@@ -597,7 +552,7 @@ background:url(image/human\ image4.png);
     font-size: 14px;
     font-weight: 700;
     line-height: 180%;
-    letter-spacing: 0%;
+    letter-spacing : -3%;
     text-align: center;
 }
 .content-5 {
@@ -609,7 +564,6 @@ left: 688px;
 right: 264px;
 top: 429px;
 bottom: 32px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -623,23 +577,20 @@ background: rgb(251, 200, 153);
 
 .content-5 photo-image{
 /* Avatar Image */
-position: static;
 width: 56px;
 height: 56px;
-/* Inside Auto Layout */
 flex: none;
 order: 0;
-flex-grow: 0;
 
 background: url(image/human\ image5.png);
 
 }
 .content-5 quote {
     /* Quote */
-    position: static;
+
     width: 296px;
     height: 101px;
-    /* 자동 레이아웃 */
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -647,11 +598,11 @@ background: url(image/human\ image5.png);
     padding: 32px;
 
 
-    /* Inside Auto Layout */
+
     flex: none;
     order: 1;
     align-self: stretch;
-    flex-grow: 0;
+
     margin: 24px 0px;
 
     color: rgb(29, 30, 28);
@@ -659,24 +610,23 @@ background: url(image/human\ image5.png);
     font-size: 14px;
     font-weight: 700;
     line-height: 180%;
-    letter-spacing: 0%;
-    text-align: left;
+    letter-spacing : -3%;
+
 
 }
 
 .content-5 who {
     /* Text */
-    position: static;
+
     width: 296px;
     height: 18px;
-    /* 자동 레이아웃 */
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 0px;
 
 
-    /* Inside Auto Layout */
+
     flex: none;
     order: 1;
     flex-grow: 1;
@@ -685,26 +635,25 @@ background: url(image/human\ image5.png);
     color: rgb(80, 80, 80);
     font-family: "Pretendard-Regular";
     font-size: 12px;
-    font-weight: 400;
+
     line-height: 150%;
-    letter-spacing: 0%;
+    letter-spacing : -3%;
     text-align: center;
     text-transform: uppercase;
 }
 
 .content-5 who2 {
     /* Text */
-    position: static;
+
     width: 296px;
     height: 26px;
-    /* 자동 레이아웃 */
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 0px;
 
 
-    /* Inside Auto Layout */
+
     flex: none;
     order: 1;
     flex-grow: 1;
@@ -715,26 +664,21 @@ background: url(image/human\ image5.png);
     font-size: 14px;
     font-weight: 700;
     line-height: 180%;
-    letter-spacing: 0%;
+    letter-spacing : -3%;
     text-align: center;
 }
 
 .faq-section{
     /* FAQ */
-position: static;
 width: 1440px;
 height: 754px;
-/* 자동 레이아웃 */
 display: flex;
-flex-direction: row;
 justify-content: center;
 align-items: flex-start;
 padding: 112px 64px 112px 64px;
 
-/* Inside Auto Layout */
 flex: none;
 order: 7;
-flex-grow: 0;
 margin: 0px 0px;
 
 background: rgb(255, 255, 255);
@@ -743,17 +687,13 @@ background: rgb(255, 255, 255);
 
 .faq-frame{
     /* Frame 62 */
-position: static;
 width: 528px;
 height: 496px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
-padding: 0px;
 
-/* Inside Auto Layout */
 flex: none;
 order: 1;
 align-self: stretch;
@@ -764,106 +704,83 @@ margin: 16px 0px;
 
 .faq-small-title{
     /* Subheading */
-position: static;
 width: 528px;
 height: 18px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 0;
 align-self: stretch;
-flex-grow: 0;
 margin: 16px 0px;
 
 color: rgb(29, 30, 28);
-font-family: Pretendard;
-font-size: 12px;
-font-weight: 100;
+font-family: 'Pretendard-Regular';
+font-size: 12px
 line-height: 150%;
-letter-spacing: 0%;
-text-align: left;
+letter-spacing : -3%;
 text-transform: uppercase;
 }
 
 .faq-big-title{
     /* Heading */
-position: static;
 width: 528px;
 height: 116px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 0;
 align-self: stretch;
-flex-grow: 0;
 margin: 24px 0px;
 
 color: rgb(29, 30, 28);
-font-family: Pretendard;
+font-family: 'Pretendard-Regular';
 font-size: 48px;
 font-weight: 700;
 line-height: 120%;
-letter-spacing: 0%;
-text-align: left;
+letter-spacing : -3%;
 }
 
 
 .faq-description{
 
     /* Text */
-position: static;
 width: 391px;
 height: 76px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 1;
-flex-grow: 0;
 margin: 24px 0px;
 
 color: rgb(29, 30, 28);
-font-family: Pretendard;
+font-family: 'Pretendard-Regular';
 font-size: 14px;
-font-weight: 400;
 line-height: 180%;
-letter-spacing: 0%;
-text-align: left;
+letter-spacing : -3%;
 
 }
 
 .accordion{
-    position: static;
+
 width: 752px;
 height: 496px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
-padding: 0px;
 
-/* Inside Auto Layout */
 flex: none;
 order: 1;
 align-self: stretch;
@@ -874,9 +791,7 @@ margin: 16px 0px;
 
 .accordion-item{
     /* Accordion Item */
-position: static;
 width: 800px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -884,7 +799,6 @@ align-items: flex-start;
 padding: 20px 0px 20px 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 0;
 margin: 0px 0px;
@@ -892,39 +806,31 @@ margin: 0px 0px;
 
 .accordion-item small-title{
     /* Question */
-position: static;
 width: 708px;
 height: 21px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 0;
 flex-grow: 1;
 margin: 0px;
 
 color: rgb(29, 30, 28);
-font-family: Pretendard;
-font-size: 14px;
-font-weight: 100;
+font-family: 'Pretendard-Regular';
+font-size: 14px
 line-height: 150%;
-letter-spacing: 0%;
-text-align: left;
+letter-spacing : -3%;
 }
 
 
 .accordion-item small-text{
     /* Text */
-position: static;
 width: 391px;
 height: 148 px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -932,30 +838,24 @@ align-items: flex-start;
 padding: 20px 0px 20px 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 1;
-flex-grow: 0;
 margin: 16px 0px;
 
 color: rgb(29, 30, 28);
-font-family: Pretendard;
+font-family: 'Pretendard-Regular';
 font-size: 14px;
 font-weight: 700;
 line-height: 180%;
-letter-spacing: 0%;
-text-align: left;
+letter-spacing : -3%;
 }
 
 .divider-line{
     /* Divider */
-position: static;
 width: 136px;
 height: 1px;
-/* Inside Auto Layout */
 flex: none;
 order: 1;
-flex-grow: 0;
 margin: 0px 0px;
 
 background: rgb(29, 30, 28);
@@ -963,70 +863,54 @@ background: rgb(29, 30, 28);
 
 .title-box{
     
-position: static;
 width: 752px;
 height: 72px;
-/* 자동 레이아웃 */
 display: flex;
-flex-direction: row;
 justify-content: flex-start;
 align-items: center;
 padding: 20px 0px 20px 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 1;
-flex-grow: 0;
 margin: 0px 0px;
 }
 
 .title-text{
     /* Question */
-position: static;
 width: 708px;
 height: 21px;
-/* 자동 레이아웃 */
 display: flex;
-flex-direction: row;
 justify-content: flex-start;
 align-items: center;
 padding: 20px 0px 20px 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 0;
 flex-grow: 1;
 margin: 0px;
 
 color: rgb(29, 30, 28);
-font-family: Pretendard;
-font-size: 14px;
-font-weight: 100;
+font-family: 'Pretendard-Regular';
+font-size: 14px
 line-height: 150%;
-letter-spacing: 0%;
-text-align: left;
+letter-spacing : -3%;
 
 }
 
 .cta{
     /* CTA */
-position: static;
 width: 1440px;
 height: 613px;
-/* 자동 레이아웃 */
 display: flex;
-flex-direction: row;
 justify-content: center;
 align-items: center;
 padding: 112px 64px 112px 64px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 8;
-flex-grow: 0;
 margin: 0px 0px;
 
 background: rgb(255, 255, 255);
@@ -1035,18 +919,14 @@ background: rgb(255, 255, 255);
 
 .column{
     /* Column */
-position: static;
 width: 1312px;
 height: 389px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: flex-end;
 align-items: center;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 0;
 flex-grow: 1;
@@ -1055,105 +935,80 @@ margin: 0px 80px;
 
 .cta-content{
     /* Content */
-position: static;
 width: 1312px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: center;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 0;
 align-self: stretch;
-flex-grow: 0;
 margin: 24px 0px;
 }
 
 
 .cta-content-frame{
     /* Frame 65 */
-position: static;
 width: 1312px;
 height: 204px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 0;
 align-self: stretch;
-flex-grow: 0;
 margin: 24px 0px;
 }
 
 .cta-content-frame2{
     /* Frame 66 */
-position: static;
 width: 1312px;
 height: 96px;
-/* 자동 레이아웃 */
 display: flex;
-flex-direction: row;
 justify-content: center;
 align-items: flex-start;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 0;
 align-self: stretch;
-flex-grow: 0;
 margin: 12px 0px;
 }
 
 .cta-content-frame2 first-text{
     /* Heading */
-position: static;
 width: 247px;
 height: 96px;
-/* 자동 레이아웃 */
 display: flex;
-flex-direction: row;
 justify-content: center;
 align-items: flex-start;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 0;
-flex-grow: 0;
 margin: 0px 24px;
 
 color: rgb(29, 30, 28);
-font-family: Pretendard;
+font-family: 'Pretendard-Regular';
 font-size: 96px;
 font-weight: 700;
 line-height: 100%;
-letter-spacing: 0%;
+letter-spacing : -3%;
 text-align: center;
 }
 
 .cta-content-frame2 cta-image{
     /* Rectangle 1 */
-position: static;
 width: 240px;
 height: 96px;
-/* Inside Auto Layout */
 flex: none;
 order: 1;
 align-self: stretch;
-flex-grow: 0;
 margin: 0px 24px;
 
 border-radius: 48px;
@@ -1163,56 +1018,45 @@ background: url(image/cta\ image.png);
 
 .cta-content-frame2 last-text{
     /* Heading */
-position: static;
 width: 683px;
 height: 96px;
-/* 자동 레이아웃 */
 display: flex;
-flex-direction: row;
 justify-content: center;
 align-items: flex-start;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 2;
-flex-grow: 0;
 margin: 0px 24px;
 
 color: rgb(29, 30, 28);
-font-family: Pretendard;
+font-family: 'Pretendard-Regular';
 font-size: 96px;
 font-weight: 700;
 line-height: 100%;
-letter-spacing: 0%;
+letter-spacing : -3%;
 text-align: center;
 }
 
 .cta-content-header{
     /* Heading */
-position: static;
 width: 1312px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 1;
 align-self: stretch;
-flex-grow: 0;
 margin: 12px 0px;
 
 color: rgb(29, 30, 28);
-font-family: Pretendard;
+font-family: 'Pretendard-Regular';
 font-size: 96px;
 font-weight: 700;
 line-height: 100%;
-letter-spacing: 0%;
+letter-spacing : -3%;
 text-align: center;
 }
 
@@ -1220,48 +1064,37 @@ text-align: center;
 .cta-text{
 
     /* Text */
-position: static;
 width: 639px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: center;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 1;
-flex-grow: 0;
 margin: 24px 0px;
 
 color: rgb(29, 30, 28);
-font-family: Pretendard;
+font-family: 'Pretendard-Regular';
 font-size: 14px;
-font-weight: 400;
 line-height: 180%;
-letter-spacing: 0%;
+letter-spacing : -3%;
 text-align: center;
 }
 
 .button{
     /* button */
-position: static;
 width: 143px;
 height: 45px;
-/* 자동 레이아웃 */
 display: flex;
-flex-direction: row;
 justify-content: center;
 align-items: center;
 padding: 12px 24px 12px 24px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 0;
-flex-grow: 0;
 margin: 0px 16px;
 
 border: 1px solid rgb(29, 30, 28);
@@ -1272,9 +1105,7 @@ background: url(image/button.png);
 
 .blog{
     /* Blog */
-position: static;
 width: 1440px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -1282,10 +1113,8 @@ align-items: center;
 padding: 112px 64px 112px 64px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 9;
-flex-grow: 0;
 margin: 0px 0px;
 
 background: rgb(255, 255, 255);
@@ -1293,182 +1122,142 @@ background: rgb(255, 255, 255);
 
 .blog-section-title{
     /* Section Title */
-position: static;
 width: 768px;
 height: 233px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: center;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 0;
-flex-grow: 0;
 margin: 80px 0px;   
 }
 
 .blog-section-subtitle{
     /* Subheading */
-position: static;
 width: 126px;
 height: 18px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: center;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 0;
-flex-grow: 0;
 margin: 16px 0px;
 
 color: rgb(29, 30, 28);
-font-family: Pretendard;
-font-size: 12px;
-font-weight: 100;
+font-family: 'Pretendard-Regular';
+font-size: 12px
 line-height: 150%;
-letter-spacing: 0%;
+letter-spacing : -3%;
 text-align: center;
 text-transform: uppercase;
 }
 
 .blog-content{
     /* Content */
-position: static;
 width: 768px;
 height: 199px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: center;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 1;
 align-self: stretch;
-flex-grow: 0;
 margin: 16px 0px;
 }
 
 .blog-frame{
     /* Frame 65 */
-position: static;
 width: 768px;
 height: 124px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 0;
 align-self: stretch;
-flex-grow: 0;
 margin: 24px 0px;
 }
 
 .blog-text{
     /* Text */
-position: static;
 width: 520px;
 height: 51px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: center;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 1;
-flex-grow: 0;
 margin: 24px 0px;
 
 color: rgb(29, 30, 28);
-font-family: Pretendard;
+font-family: 'Pretendard-Regular';
 font-size: 14px;
 font-weight: 700;
 line-height: 180%;
-letter-spacing: 0%;
+letter-spacing : -3%;
 text-align: center;
 }
 
 .blog-frame2{
 
 /* Heading */
-position: static;
 width: 768px;
 height: 58px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 0;
 align-self: stretch;
-flex-grow: 0;
 margin: 8px 0px;
 
 color: rgb(29, 30, 28);
-font-family: Pretendard;
+font-family: 'Pretendard-Regular';
 font-size: 48px;
 font-weight: 700;
 line-height: 120%;
-letter-spacing: 0%;
+letter-spacing : -3%;
 text-align: center;
 }
 
 .blog-frame3{
     /* Frame 66 */
-position: static;
 width: 768px;
 height: 58px;
-/* 자동 레이아웃 */
 display: flex;
-flex-direction: row;
 justify-content: center;
 align-items: flex-start;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 1;
 align-self: stretch;
-flex-grow: 0;
 margin: 8px 0px;
 }
 
 .blog-frame3 blog-image{
     /* Rectangle 1 */
-position: static;
 width: 180px;
 height: 58px;
-/* Inside Auto Layout */
 flex: none;
 order: 0;
-flex-grow: 0;
 margin: 0px 12px;
 border-radius: 48px;
 
@@ -1477,69 +1266,53 @@ background: url(image/blog\ image.png);
 
 .blog-frame3 blog-text{
 /* Heading */
-position: static;
 width: 241px;
 height: 58px;
-/* 자동 레이아웃 */
 display: flex;
-flex-direction: row;
 justify-content: center;
 align-items: flex-start;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 1;
-flex-grow: 0;
 margin: 0px 12px;
 
 color: rgb(29, 30, 28);
-font-family: Pretendard;
+font-family: 'Pretendard-Regular';
 font-size: 48px;
 font-weight: 700;
 line-height: 120%;
-letter-spacing: 0%;
+letter-spacing : -3%;
 text-align: center;
 }
 
 .blog-placeholder{
     /* Content */
-position: static;
 width: 1312px;
 height: 593px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: center;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 1;
-flex-grow: 0;
 margin: 80px 0px;
 }
 
 .blog-button{
     /* button */
-position: static;
 width: 94px;
 height: 45px;
-/* 자동 레이아웃 */
 display: flex;
-flex-direction: row;
 justify-content: center;
 align-items: center;
 padding: 12px 24px 12px 24px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 1;
-flex-grow: 0;
 margin: 64px 0px;
 
 border: 1px solid rgb(29, 30, 28);
@@ -1550,19 +1323,14 @@ background: url(image/blog\ button.png);
 
 .card{
     /* Card */
-position: static;
 width: 416px;
 height: 484px;
-/* 자동 레이아웃 */
 display: flex;
-flex-direction: row;
 justify-content: flex-start;
 justify-content: center;
 align-items: center;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 flex-grow: 1;
 
@@ -1585,14 +1353,11 @@ flex-grow: 1;
 
 .card-image-zero{
 
-position: static;
 width: 416px;
 height: 300px;
-/* Inside Auto Layout */
 flex: none;
 order: 0;
 align-self: stretch;
-flex-grow: 0;
 margin: 24px 0px;
     background: url(image/Placeholder\ image1.png);
 
@@ -1602,16 +1367,16 @@ border-radius: 24px;
 
 .card-image-one{
 
-    position: static;
+
     width: 416px;
     height: 300px;
-    /* Inside Auto Layout */
+
     flex: none;
     order: 0;
     align-self: stretch;
-    flex-grow: 0;
+
     margin: 24px 0px;
-        background: url(image/Placeholder\ image2.png);
+    background: url(image/Placeholder\ image2.png);
     
     border-radius: 24px;
     
@@ -1620,14 +1385,14 @@ border-radius: 24px;
 
 .card-image-two{
 
-        position: static;
+    
         width: 416px;
         height: 300px;
-        /* Inside Auto Layout */
+    
         flex: none;
         order: 0;
         align-self: stretch;
-        flex-grow: 0;
+    
         margin: 24px 0px;
             background: url(image/Placeholder\ image3.png);
         
@@ -1638,21 +1403,16 @@ border-radius: 24px;
 
 .label-zero{
     /* Frame 61 */
-position: static;
 width: 70px;
 height: 29px;
-/* 자동 레이아웃 */
 display: flex;
-flex-direction: row;
 justify-content: flex-start;
 align-items: flex-start;
 padding: 4px 8px 4px 8px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 0;
-flex-grow: 0;
 margin: 0px;
 
 background-image: url(image/label\ zero.png);
@@ -1660,42 +1420,33 @@ background-image: url(image/label\ zero.png);
 
 .label-one{
     /* Frame 61 */
-position: static;
 width: 87px;
 height: 29px;
-/* 자동 레이아웃 */
 display: flex;
-flex-direction: row;
 justify-content: flex-start;
 align-items: flex-start;
 padding: 4px 8px 4px 8px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 0;
-flex-grow: 0;
 margin: 0px;
 
 background-image: url(image/lebel\ one.png);
 }
 
 .label-two{
-    position: static;
+
 width: 40px;
 height: 29px;
-/* 자동 레이아웃 */
 display: flex;
-flex-direction: row;
 justify-content: flex-start;
 align-items: flex-start;
 padding: 4px 8px 4px 8px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 0;
-flex-grow: 0;
 margin: 0px;
 
 background-image: url(image/label\ two.png);
@@ -1706,117 +1457,86 @@ background-image: url(image/label\ two.png);
 .label-content{
 
     /* Content */
-position: static;
 width: 416px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 1;
 align-self: stretch;
-flex-grow: 0;
 margin: 24px 0px;
 }
 
 
 .label-text{
     /* Text */
-position: static;
-/* 자동 레이아웃 */
 display: flex;
-flex-direction: row;
 justify-content: flex-start;
 align-items: center;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 1;
-flex-grow: 0;
 margin: 0px 16px;
 }
 
 .label-info{
     /* Info */
-position: static;
-/* 자동 레이아웃 */
 display: flex;
-flex-direction: row;
 justify-content: flex-start;
 align-items: left;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 0;
-flex-grow: 0;
 margin: 16px 0px;
 }
 
 .label-description{
     /* Heading */
-position: static;
 width: 416px;
 height: 67px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 0;
 align-self: stretch;
-flex-grow: 0;
 margin: 8px 0px;
 
 color: rgb(29, 30, 28);
-font-family: Pretendard;
+font-family: 'Pretendard-Regular';
 font-size: 24px;
 font-weight: 700;
 line-height: 140%;
-letter-spacing: 0%;
-text-align: left;
+letter-spacing : -3%;
 }
 
 .read-more{
     /* Button */
-position: static;
 width: 100px;
 height: 24px;
-/* 자동 레이아웃 */
 display: flex;
-flex-direction: row;
 justify-content: center;
 align-items: center;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 2;
-flex-grow: 0;
 margin: 24px 0px;
 }
 
 
 footer{
     /* Footer */
-position: static;
 width: 1440px;
 height: 526px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -1824,10 +1544,8 @@ align-items: center;
 padding: 64px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 10;
-flex-grow: 0;
 margin: 0px 0px;
 
 background: rgb(255, 255, 255);
@@ -1835,21 +1553,16 @@ background: rgb(255, 255, 255);
 
 .footer-card{
     /* Card */
-position: static;
 width: 1312px;
 height: 340px;
-/* 자동 레이아웃 */
 display: flex;
-flex-direction: row;
 justify-content: flex-start;
 align-items: flex-start;
 padding: 48px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 0;
-flex-grow: 0;
 margin: 32px 0px;
 
 border-radius: 48px;
@@ -1859,188 +1572,136 @@ background: rgb(29, 30, 28);
 
 .row{
     /* Row */
-position: static;
 width: 1312px;
 height: 26px;
-/* 자동 레이아웃 */
 display: flex;
-flex-direction: row;
 justify-content: space-between;
 align-items: flex-start;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 0;
 align-self: stretch;
-flex-grow: 0;
 margin: 32px 0px;
 }
 .row-zero{
 
     /* Text */
-position: static;
 width: 224px;
-/* 자동 레이아웃 */
 display: flex;
-flex-direction: row;
 justify-content: flex-start;
 align-items: flex-start;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 0;
-flex-grow: 0;
 margin: 0px 10px;
 
 color: rgb(29, 30, 28);
-font-family: Pretendard;
+font-family: 'Pretendard-Regular';
 font-size: 14px;
-font-weight: 400;
 line-height: 180%;
-letter-spacing: 0%;
-text-align: left;
+letter-spacing : -3%;
 
 }
 
 .footer-link{
 /* Footer Links */
-position: static;
 height: 21px;
-/* 자동 레이아웃 */
 display: flex;
-flex-direction: row;
 justify-content: flex-start;
 align-items: flex-start;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 1;
-flex-grow: 0;
 margin: 0px 10px;
 
 }
 .row-one{
 
     /* Link */
-position: static;
 width: 87px;
 height: 21px;
-/* 자동 레이아웃 */
 display: flex;
-flex-direction: row;
 justify-content: flex-start;
 align-items: flex-start;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 0;
-flex-grow: 0;
 margin: 0px 24px;
 
 color: rgb(29, 30, 28);
-font-family: Pretendard;
+font-family: 'Pretendard-Regular';
 font-size: 14px;
-font-weight: 400;
 line-height: 150%;
-letter-spacing: 0%;
-text-align: left;
+letter-spacing : -3%;
 text-decoration-line: underline;
 
 }
 .row-two{
 /* Link */
-position: static;
 width: 106px;
 height: 21px;
-/* 자동 레이아웃 */
 display: flex;
-flex-direction: row;
 justify-content: flex-start;
 align-items: flex-start;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 1;
-flex-grow: 0;
 margin: 0px 24px;
 
 color: rgb(29, 30, 28);
-font-family: Pretendard;
+font-family: 'Pretendard-Regular';
 font-size: 14px;
-font-weight: 400;
 line-height: 150%;
-letter-spacing: 0%;
-text-align: left;
+letter-spacing : -3%;
 text-decoration-line: underline;
 }
 .row-three{
     /* Link */
-position: static;
 width: 106px;
 height: 21px;
-/* 자동 레이아웃 */
 display: flex;
-flex-direction: row;
 justify-content: flex-start;
 align-items: flex-start;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 2;
-flex-grow: 0;
 margin: 0px 24px;
 
 color: rgb(29, 30, 28);
-font-family: Pretendard;
+font-family: 'Pretendard-Regular';
 font-size: 14px;
-font-weight: 400;
 line-height: 150%;
-letter-spacing: 0%;
-text-align: left;
+letter-spacing : -3%;
 text-decoration-line: underline;
 }
 
 .news-letter{
     /* Newsletter */
-position: static;
 width: 500px;
 height: 226px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 0;
-flex-grow: 0;
 margin: 0px 128px 0px 0px;
 }
 
 .news-header{
     /* Heading */
-position: static;
 width: 118.95px;
 height: 24px;
-/* Inside Auto Layout */
 flex: none;
 order: 0;
-flex-grow: 0;
 margin: 0px 0px;
 
 background-image: url(image/footer\ header.png);
@@ -2048,109 +1709,82 @@ background-image: url(image/footer\ header.png);
 .news-small-text{
 
     /* Text */
-position: static;
 width: 500px;
 height: 26px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 0;
 align-self: stretch;
-flex-grow: 0;
 margin: 24px 0px;
 
 color: rgb(255, 255, 255);
-font-family: Pretendard;
+font-family: 'Pretendard-Regular';
 font-size: 14px;
-font-weight: 400;
 line-height: 180%;
-letter-spacing: 0%;
-text-align: left;
+letter-spacing : -3%;
 }
 .news-frame{
     /* Frame 67 */
-position: static;
 width: 500px;
 height: 170px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 1;
 align-self: stretch;
-flex-grow: 0;
 margin: 32px 0px;
 }
 
 .news-action{
     /* Actions */
-position: static;
 width: 500px;
 height: 120px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 1;
 align-self: stretch;
-flex-grow: 0;
 }
 
 .news-form{
     /* Form */
-position: static;
 width: 500px;
 height: 45px;
-/* 자동 레이아웃 */
 display: flex;
-flex-direction: row;
 justify-content: flex-start;
 align-items: flex-start;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 0;
 align-self: stretch;
-flex-grow: 0;
 
 
 }
 
 .text-input{
     /* Text Input */
-position: static;
 width: 368px;
 height: 45px;
-/* 자동 레이아웃 */
 display: flex;
-flex-direction: row;
 justify-content: flex-start;
 align-items: center;
 padding: 12px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 0;
 flex-grow: 1;
@@ -2161,18 +1795,14 @@ background: rgb(29, 30, 28);
 
 .place-holder{
     /* Placeholder */
-position: static;
 width: 344px;
 height: 21px;
-/* 자동 레이아웃 */
 display: flex;
-flex-direction: row;
 justify-content: flex-start;
 align-items: center;
 padding: 12px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 0;
 flex-grow: 1;
@@ -2181,33 +1811,26 @@ margin: 0px 8px;
 opacity: 0.8;
 
 color: rgb(255, 255, 255);
-font-family: Pretendard;
+font-family: 'Pretendard-Regular';
 font-size: 14px;
-font-weight: 400;
 line-height: 150%;
-letter-spacing: 0%;
-text-align: left;
+letter-spacing : -3%;
 }
 
 
 .news-button{
 
 /* button */
-position: static;
 width: 108px;
 height: 45px;
-/* 자동 레이아웃 */
 display: flex;
-flex-direction: row;
 justify-content: center;
 align-items: center;
 padding: 12px 24px 12px 24px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 1;
-flex-grow: 0;
 margin: 0px 24px;
 
 border: 1px solid rgb(29, 30, 28);
@@ -2219,47 +1842,35 @@ background: url(image/news\ button.png)
 
 .news-text{
     /* Text */
-position: static;
 width: 500px;
 height: 51px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 1;
 align-self: stretch;
-flex-grow: 0;
 
 
 color: rgb(255, 255, 255);
-font-family: Pretendard;
+font-family: 'Pretendard-Regular';
 font-size: 14px;
-font-weight: 400;
 line-height: 180%;
-letter-spacing: 0%;
-text-align: left;
+letter-spacing : -3%;
 }
 
 .links{
     /* Links */
-position: static;
 width: 588px;
 height: 244px;
-/* 자동 레이아웃 */
 display: flex;
-flex-direction: row;
 justify-content: flex-start;
 align-items: flex-start;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 1;
 flex-grow: 1;
@@ -2267,18 +1878,14 @@ flex-grow: 1;
 
 .link-column-zero{
     /* Column */
-position: static;
 width: 169.33px;
 height: 244px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 0;
 flex-grow: 1;
@@ -2287,18 +1894,14 @@ margin: 0px 40px;
 
 .link-column-one{
     /* Column */
-position: static;
 width: 169.33px;
 height: 202px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 1;
 flex-grow: 1;
@@ -2306,18 +1909,14 @@ flex-grow: 1;
 
 .link-column-two{
     /* Column */
-position: static;
 width: 169.33px;
 height: 244px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 2;
 flex-grow: 1;
@@ -2327,66 +1926,53 @@ margin: 0px 40px;
 
 .link-header{
     /* Heading */
-position: static;
 width: 169.33px;
 height: 18px;
-/* 자동 레이아웃 */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
-padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 0;
 align-self: stretch;
-flex-grow: 0;
 margin: 16px 0px;
 
 color: rgb(80,80,80);
-font-family: Pretendard;
-font-size: 12px;
-font-weight: 100;
+font-family: 'Pretendard-Regular';
+font-size: 12px
 line-height: 150%;
-letter-spacing: 0%;
-text-align: left;
+letter-spacing : -3%;
 text-transform: uppercase;
 }
 
 .link-text{
     /* Link */
-position: static;
 width: 169.33px;
 height: 26px;
-/* 자동 레이아웃 */
 display: flex;
-flex-direction: row;
 justify-content: flex-start;
 align-items: flex-start;
 padding: 8px 0px 8px 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 0;
 flex-grow: 1;
 margin: 0px 0px;
 
 color: rgb(255, 255, 255);
-font-family: Pretendard;
+font-family: 'Pretendard-Regular';
 font-size: 14px;
-font-weight: 400;
 line-height: 180%;
-letter-spacing: 0%;
-text-align: left;
+letter-spacing : -3%;
 }
 
 
 @font-face {
     font-family: 'Pretendard-Regular';
     src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
-    font-weight: 400;
+
     font-style: normal;
 }
