@@ -1810,6 +1810,209 @@ flex-grow: 0;
 margin: 24px 0px;
 }
 
+
+footer{
+    /* Footer */
+position: static;
+width: 1440px;
+height: 526px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 64px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 10;
+flex-grow: 0;
+margin: 0px 0px;
+
+background: rgb(255, 255, 255);
+}
+
+.footer-card{
+    /* Card */
+position: static;
+width: 1312px;
+height: 340px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 48px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 32px 0px;
+
+border-radius: 48px;
+
+background: rgb(29, 30, 28);
+}
+
+.row{
+    /* Row */
+position: static;
+width: 1312px;
+height: 26px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+}
+.row-zero{
+
+    /* Text */
+position: static;
+width: 224px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+
+color: rgb(29, 30, 28);
+font-family: Pretendard;
+font-size: 14px;
+font-weight: 400;
+line-height: 180%;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+.footer-link{
+/* Footer Links */
+position: static;
+height: 21px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 10px;
+
+}
+.row-one{
+
+    /* Link */
+position: static;
+width: 87px;
+height: 21px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 24px;
+
+color: rgb(29, 30, 28);
+font-family: Pretendard;
+font-size: 14px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+
+}
+.row-two{
+/* Link */
+position: static;
+width: 106px;
+height: 21px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 24px;
+
+color: rgb(29, 30, 28);
+font-family: Pretendard;
+font-size: 14px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+}
+.row-three{
+    /* Link */
+position: static;
+width: 106px;
+height: 21px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 0px 24px;
+
+color: rgb(29, 30, 28);
+font-family: Pretendard;
+font-size: 14px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+}
+
+
 @font-face {
     font-family: 'Pretendard-Regular';
     src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
