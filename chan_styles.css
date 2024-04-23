@@ -1439,6 +1439,376 @@ letter-spacing: 0%;
 text-align: center;
 }
 
+.blog-frame3{
+    /* Frame 66 */
+position: static;
+width: 768px;
+height: 58px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 8px 0px;
+}
+
+.blog-frame3 blog-image{
+    /* Rectangle 1 */
+position: static;
+width: 180px;
+height: 58px;
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 12px;
+border-radius: 48px;
+
+background: url(image/blog\ image.png);
+}
+
+.blog-frame3 blog-text{
+/* Heading */
+position: static;
+width: 241px;
+height: 58px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 12px;
+
+color: rgb(29, 30, 28);
+font-family: Pretendard;
+font-size: 48px;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.blog-placeholder{
+    /* Content */
+position: static;
+width: 1312px;
+height: 593px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 80px 0px;
+}
+
+.blog-button{
+    /* button */
+position: static;
+width: 94px;
+height: 45px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 24px 12px 24px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 64px 0px;
+
+border: 1px solid rgb(29, 30, 28);
+border-radius: 42px;
+
+background: url(image/blog\ button.png);
+}
+
+.card{
+    /* Card */
+position: static;
+width: 416px;
+height: 484px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+flex-grow: 1;
+
+}
+
+.card zero{
+    order:0;
+    margin: 0px 20px;
+}
+
+.card one{
+    order : 1;
+    margin: 0px 20px;
+}
+
+.card two{
+    order : 2;
+    margin: 0px 20px;
+}
+
+.card-image-zero{
+
+position: static;
+width: 416px;
+height: 300px;
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+    background: url(image/Placeholder\ image1.png);
+
+border-radius: 24px;
+
+}
+
+.card-image-one{
+
+    position: static;
+    width: 416px;
+    height: 300px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+        background: url(image/Placeholder\ image2.png);
+    
+    border-radius: 24px;
+    
+    
+}
+
+.card-image-two{
+
+        position: static;
+        width: 416px;
+        height: 300px;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 24px 0px;
+            background: url(image/Placeholder\ image3.png);
+        
+        border-radius: 24px;
+        
+        
+}
+
+.label-zero{
+    /* Frame 61 */
+position: static;
+width: 70px;
+height: 29px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 4px 8px 4px 8px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px;
+
+background-image: url(image/label\ zero.png);
+}
+
+.label-one{
+    /* Frame 61 */
+position: static;
+width: 87px;
+height: 29px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 4px 8px 4px 8px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px;
+
+background-image: url(image/lebel\ one.png);
+}
+
+.label-two{
+    position: static;
+width: 40px;
+height: 29px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 4px 8px 4px 8px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px;
+
+background-image: url(image/label\ two.png);
+
+
+}
+
+.label-content{
+
+    /* Content */
+position: static;
+width: 416px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+}
+
+
+.label-text{
+    /* Text */
+position: static;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 16px;
+}
+
+.label-info{
+    /* Info */
+position: static;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: left;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 16px 0px;
+}
+
+.label-description{
+    /* Heading */
+position: static;
+width: 416px;
+height: 67px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 8px 0px;
+
+color: rgb(29, 30, 28);
+font-family: Pretendard;
+font-size: 24px;
+font-weight: 700;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.read-more{
+    /* Button */
+position: static;
+width: 100px;
+height: 24px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 24px 0px;
+}
 
 @font-face {
     font-family: 'Pretendard-Regular';
