@@ -1052,3 +1052,214 @@ margin: 0px 24px;
    text-align: center;   
 
 }
+
+.tour {
+  /* Virtual Tour */
+  position: static;
+  width: 1440px;
+  height: 1322px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 112px 64px 112px 64px;
+  
+  
+  /* Inside Auto Layout */
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.tour-space {
+
+  /* Content */
+  position: static;
+  width: 768px;
+  height: 318px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  
+  
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 80px 0px;
+}
+
+.name {
+  /* Subheading */
+  position: static;
+  width: 100px;
+  height: 18px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  
+  
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 16px 0px;
+
+  color: rgb(29, 30, 28);
+  font-family: Pretendard;
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.tour-space-down {
+  /* Content */
+  position: static;
+  width: 768px;
+  /* height: 199px; */
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  
+  
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
+
+.paragraph1 {
+  /* Heading */
+   position: static;
+   width: 768px;
+   height: 58px;
+   /* 자동 레이아웃 */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 0px;
+   
+   
+   /* Inside Auto Layout */
+   flex: none;
+   order: 0;
+   align-self: stretch;
+   flex-grow: 0;
+   margin: 8px 0px;
+   color: rgb(29, 30, 28);
+   font-family: Pretendard;
+   font-size: 48px;
+   font-weight: 700;
+   line-height: 120%;
+   letter-spacing: 0%;
+   text-align: center;
+}
+
+.tour-space-middle {
+  /* Frame 66 */
+  position: static;
+  width: 768px;
+  height: 58px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  
+  
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.forest {
+  /* Rectangle 1 */
+  position: static;
+  width: 180px;
+  height: 58px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 12px;
+  border-radius: 48px;
+  background-image: url('../img_uk/forest.png');
+}
+
+.lens {
+  /* Heading */
+  position: static;
+  width: 109px;
+  height: 58px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  
+  
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 12px;
+  
+  color: rgb(29, 30, 28);
+  font-family: Pretendard;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.middle-low {
+  /* Text */
+  position: static;
+  width: 788px;
+  height: 51px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  
+  
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 24px 0px;
+
+  color: rgb(29, 30, 28);
+  font-family: Pretendard;
+  font-size: 14px;
+  font-weight: 420;
+  line-height: 180%;
+  letter-spacing: 0%;
+  text-align: center;
+}
